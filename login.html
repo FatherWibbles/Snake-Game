@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/CSS/login.css">
+</head>
+<body>
+<form action="/action_page.php" method="post">
+  <div class="imgcontainer">
+    <img src="/Images/Avatar.png" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="button" id="login">Login</button>
+    <script type="text/javascript">
+      document.getElementById("login").onclick = function () {
+          location.href = "gameBoard.html";
+      };
+    </script>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" id="cancelbtn">Cancel</button>
+    <script type="text/javascript">
+      document.getElementById("cancelbtn").onclick = function () {
+          location.href = "home.html";
+      };
+    </script>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+
+</body>
+</html>
