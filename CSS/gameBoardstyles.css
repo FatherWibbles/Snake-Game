@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 #gamearea {
     min-height: 90vh;
@@ -13,7 +13,7 @@ body{
 }
 
 #game-board{
-    background-color: rgb(226, 220, 162);
+    background-color: rgb(23, 35, 148);
     width: 80vmin;
     height: 80vmin;
     display: grid;
@@ -44,11 +44,11 @@ body{
 }
 
 .snake{
-    background-color: brown;
+    background-color: rgb(201, 20, 20);
     border: .25vmin solid black;
 }
 
 .food{
-    background-color: green;
+    background-color: rgb(170, 182, 3);
     border: .25vmin solid black;
 }
